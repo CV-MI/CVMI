@@ -1,3 +1,3 @@
-module github.com/CV-MI/CVMI/blob/main/go.mod
+module github.com/CV-MI/CVMI
 
 go 1.19
