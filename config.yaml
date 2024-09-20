@@ -1,8 +1,11 @@
 module:
+  imports:
+    # Your block's GitHub URL (replace <USERNAME> and <COLLECTION-NAME> with your GitHub username and block collection name)
+    - path: github.com/CV-MI/hugo-blox-CVMI
   mounts:
-    - source: blox
-      target: layouts/partials/blox/community/
-      includeFiles: '**.html'
-    - source: blox
-      target: assets/dist/community/blox/
-      includeFiles: '**.css'
+  - source: blox
+    target: layouts/partials/blox/community/
+    includeFiles: '**.html'
+  - source: blox
+    target: assets/dist/community/blox/
+    includeFiles: '**.css'
