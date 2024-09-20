@@ -1,3 +1,3 @@
-module github.com/CV-MI/CVMI
+module github.com/CV-MI/hugo-blox-CVMI
 
 go 1.19
